@@ -1,7 +1,7 @@
 Summary: XAPI plugin for starting the conversion VPX
 Name: conversion-plugin
 Version: 8.0.0
-Release: 1.1
+Release: 1.1%{dist}
 URL: https://github.com/xcp-ng-rpms/conversion-plugin
 Source0: conversion
 Source1: xcmxmlrpclib.py
