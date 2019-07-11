@@ -12,6 +12,10 @@ BuildArch: noarch
 %description
 XCM XAPI plugin
 
+%prep
+
+%build
+
 %install
 install -m 0755 -D %{SOURCE0} %{buildroot}/etc/xapi.d/plugins/conversion
 install -m 0644 -D %{SOURCE1} %{buildroot}/etc/xapi.d/plugins/xcmxmlrpclib.py
